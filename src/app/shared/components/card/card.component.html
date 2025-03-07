@@ -1,0 +1,9 @@
+<div
+  class="w-40 h-48 border border-[#DA5A51] rounded-xl overflow-hidden shadow-lg transition-transform duration-300 hover:scale-105 bg-white"
+>
+  <img [src]="imageUrl()" alt="{{ name() }}" class="w-full h-24 object-cover" />
+  <div class="p-2 text-center">
+    <h2 class="text-sm font-semibold text-gray-800 truncate">{{ name() }}</h2>
+    <p class="text-base font-bold text-[#DA5A51] mt-1">${{ price() }}</p>
+  </div>
+</div>
